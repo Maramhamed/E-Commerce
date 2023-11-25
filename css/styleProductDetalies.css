@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat:300,400,700,800|Open+Sans:300");
+/*font-family: 'Dosis', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap");
+
+.card__title {
+  display: flex;
+  align-items: center;
+  padding: 30px 40px;
+}
+h2 {
+  font-family: "Dosis", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+}
+.card__title .icon {
+  background: #e5345b;
+  color: #fff;
+  padding: 10px;
+  transition: 200ms;
+}
+.card__title .icon > a {
+  color: #fff;
+}
+.card__title .icon:hover {
+  background: #96bcdd;
+}
+.card .card__body {
+  padding: 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .card__body > .half {
+  box-sizing: border-box;
+  padding: 0 15px;
+  flex: 1 0 50%;
+}
+.featured_text h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  font-size: 64px;
+  line-height: 50px;
+  color: #181e28;
+}
+.featured_text p {
+  margin: 0;
+  padding: 0;
+}
+.featured_text p.sub {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.featured_text p.price {
+  font-family: "Fjalla One", sans-serif;
+  color: #252525;
+  font-size: 26px;
+}
+.card .card__body .image {
+  padding-top: 15px;
+  width: 100%;
+}
+.card .card__body .image img {
+  display: block;
+  max-width: 100%;
+  height: 50vh;
+}
+.card .card__body .description {
+  margin-bottom: 25px;
+}
+.card .card__body .description p {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 27px;
+  font-size: 16px;
+  color: #555;
+}
+.card .card__body span.stock {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #a1cc16;
+}
+.card .card__body .reviews .stars {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+.card .card__body .reviews .stars > li {
+  display: inline-block;
+}
+.card .card__body .reviews .stars > li .fa {
+  color: #f7c01b;
+}
+.card .card__body .reviews > span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin-left: 5px;
+  color: #555;
+}
+.card .card__footer {
+  padding: 30px 40px;
+  display: flex;
+  flex-flow: row no-wrap;
+  align-items: center;
+  position: relative;
+}
+.card .card__footer::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 40px;
+  width: calc(100% - 40px);
+  height: 3px;
+  background: #115dd8;
+  background: linear-gradient(
+    to right,
+    #115dd8 0%,
+    #115dd8 20%,
+    #ddd 20%,
+    #ddd 100%
+  );
+}
+.card .card__footer .recommend {
+  flex: 1 0 10px;
+}
+
+.action button {
+  cursor: pointer;
+  background-color: #e5345b;
+  color: white;
+  padding: 10px 28px;
+  border-radius: 25px;
+  border: white;
+  transition: 200ms;
+}
+.action button:hover {
+  background-color: #fff !important;
+  color: rgb(85, 85, 85) !important;
+  border: 1px solid rgb(85, 85, 85) !important;
+}
+.title h2::before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 50px;
+  background-color: #e5345b;
+  left: -20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.card {
+  height: 100%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.collection-img {
+  width: 70%;
+  height: 70%;
+}
+.collection-img img {
+  width: 100%;
+  height: 100%;
+}
+.collection-img span {
+  top: 20px;
+  right: 20px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+
+.btn {
+  background-color: #e5345b;
+  color: white;
+  padding: 10px 28px;
+  border-radius: 25px;
+  border: white;
+}
+.btn:hover {
+  background-color: #fff !important;
+  color: rgb(85, 85, 85) !important;
+  border: 1px solid rgb(85, 85, 85) !important;
+}
+@media (max-width: 700px) {
+  body {
+    background-image: none;
+  }
+
+  main {
+    max-width: 100%;
+  }
+  .card__body {
+    display: flex;
+    flex-direction: column;
+  }
+  .card .card__title {
+    display: flex;
+    align-items: center;
+    padding: 30px 40px;
+  }
+  .card .card__title h3 {
+    flex: 1;
+    text-align: right;
+    margin: 0;
+    color: #252525;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .card .card__title .icon {
+    flex: 0 0 50px;
+    color: #fff;
+    padding: 10px;
+    transition: 200ms;
+  }
+  .card .card__title .icon > a {
+    color: #fff;
+  }
+  .card .card__title .icon:hover {
+    background: #252525;
+  }
+  .card .card__body .image img {
+    height: 30vh;
+    margin-bottom: 10px;
+  }
+  .featured_text p.sub {
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+}
