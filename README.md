@@ -22,9 +22,12 @@
 ###### Responsive Design:
 * The application is designed to be responsive, adapting to different screen sizes.
  
-###### Checkout Process::
+###### Checkout Process:
 * Clicking the "Buy Now" button initiates the checkout process.
 * The application may redirect users to a checkout page for order confirmation and payment.
+
+###### Authentication :
+* required to provide their email address and password or register to gain access to the application's protected content or features.
 
 
 
