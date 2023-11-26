@@ -6,7 +6,7 @@
 
 
 ### The app's sketch: 
-- ![Untitled-2023-09-28-1750](https://github.com/Maramhamed/E-commecr/assets/78036366/39b6ba7f-3205-4902-bfc9-d4d4b5051a77)
+ ![Untitled-2023-09-28-1750](https://github.com/Maramhamed/E-commecr/assets/78036366/39b6ba7f-3205-4902-bfc9-d4d4b5051a77)
 
 
 ### The Features: 
