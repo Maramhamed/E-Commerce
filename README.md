@@ -18,6 +18,9 @@
 ###### Responsive Design:
 * The application is designed to be responsive, adapting to different screen sizes.
  
+###### Product Details:
+* Allows users to click on a product to view its details, including a description, and related products.
+ 
 ###### Checkout Process:
 * Clicking the "Buy Now" button initiates the checkout process.
 * The application may redirect users to a checkout page for order confirmation and payment.
@@ -26,9 +29,15 @@
 * required to provide their email address and password or register to gain access to the application's protected content or features.
 
 
-
 ### Languages: 
 - HTML5 & CSS3 and Vanilla JavaScript integrated with Fake API
+
+### Icons: 
+- https://boxicons.com/
+  
+### API: 
+- Fake Store API => https://fakestoreapi.com/
+- Authentication Fake API => https://fakestoreapi.com/
 
 ### View The Site: 
  https://e-commerce-js-maram.netlify.app/
