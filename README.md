@@ -40,4 +40,4 @@
 - Authentication Fake API => https://fakestoreapi.com/
 
 ### View The Site: 
- https://e-commerce-js-maram.netlify.app/
+- https://e-commerce-js-maram.netlify.app/
