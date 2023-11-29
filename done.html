@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Done</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Poppins:wght@400;500;600&family=Roboto+Slab:wght@800&display=swap");
+      * {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+        scroll-padding-top: 2rem;
+        scroll-behavior: smooth;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+      }
+
+      :root {
+        --main-color: #fd4646;
+        --text-color: #171427;
+        --bg-color: #fff;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+      .container {
+        max-width: 1068px;
+        margin: auto;
+        width: 100%;
+      }
+      header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: var(--bg-color);
+        box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
+        z-index: 100;
+      }
+      .btn-buy {
+        display: flex;
+        margin: 1.5rem auto 0 auto;
+        padding: 12px 20px;
+        border: none;
+        background: var(--main-color);
+        color: var(--bg-color);
+        font-size: 1rem;
+        font-weight: 500;
+        cursor: pointer;
+      }
+
+      .btn-buy:hover {
+        background: var(--text-color);
+      }
+
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0;
+        z-index: 5;
+      }
+
+      .logo {
+        font-size: 1.3rem;
+        color: var(--text-color);
+        font-weight: 600;
+        text-decoration: none;
+      }
+
+      /* Center content within the row */
+      .center-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!--Nav-->
+      <div class="nav container">
+        <a href="#" class="logo">E-commerce</a>
+        <!--Cart Icons-->
+        <span>
+          <i class="bx bx-shopping-bag" id="cart-icon"></i>
+          <i class="bx bxs-user-circle" id="profile"></i>
+        </span>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row center-content">
+        <div class="col-sm-12">
+          <img src="thumbs-up-baby.gif" alt="Thumbs Up Baby" />
+          <button class="btn-buy" onclick="goToIndex()">Done</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="path/to/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Clear the 'cart' key from local storage
+      localStorage.removeItem("cart");
+
+      // JavaScript function to navigate to index.html
+      function goToIndex() {
+        // Assuming index.html is in the same directory, you can change the path accordingly
+        window.location.href = "index.html";
+      }
+    </script>
+  </body>
+</html>

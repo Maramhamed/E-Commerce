@@ -36,7 +36,7 @@ const loginSuccessful = async (email, password) => {
     alert("Login successful!");
 
     //navigate into home page
-    window.location.href = "main.html"; // Replace "main-page.html" with the URL of your main page
+    window.location.href = "index.html"; // Replace "main-page.html" with the URL of your main page
   } catch (error) {
     alert(error.message);
   }

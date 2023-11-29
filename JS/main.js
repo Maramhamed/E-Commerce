@@ -59,11 +59,7 @@ async function displayProducts() {
       const imageElement = card.querySelector(".product-img");
       imageElement.addEventListener("click", function () {
         // Redirect to product details page with query parameters
-        window.location.href = `productDetails.html?title=${encodeURIComponent(
-          product.title
-        )}&price=${product.price}&image=${product.image}&description=${
-          product.description
-        }&category=${product.category}`;
+        window.location.href = `productDetalies.html?title=${product.title}&price=${product.price}&image=${product.image}&description=${product.description}&category=${product.category}`;
       });
 
       shopContent.appendChild(productBox);
@@ -263,5 +259,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //THE BUTTON TAKE THE USER TO ANOTHER PAGE
 function goToCheckout() {
-  window.location.href = "checkout.html";
+  // Check if a token exists in localStorage
+  const token = localStorage.getItem("Token");
+
+  // If token exists, navigate to checkout.html
+  if (token) {
+    window.location.href = "checkout.html";
+  } else {
+    // If token does not exist, redirect to authentication.html
+    window.location.href = "authentication.html";
+  }
 }
+// Function to handle icon click and redirect to the main page
+function redirectToLoginPage() {
+  // Replace 'main.html' with the actual URL of your main page
+  window.location.href = "authentication.html";
+}
+
+// Get the icon element by its ID
+var profile = document.getElementById("profile");
+
+// Add a click event listener to the icon
+profile.addEventListener("click", redirectToLoginPage);
