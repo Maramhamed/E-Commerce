@@ -8,7 +8,9 @@
 ### The Features: 
 -  It provides an easy-to-use interface and comfortable eye colors for browsing and viewing products, and it can also be developed and improved.
 
-
+### View The Site: 
+- https://e-commerce-js-maram.netlify.app/
+  
 ### The Functionality: 
 ###### Cart Interaction:
 * Users can add products to the cart by clicking the "Add to Cart" icon.
@@ -39,5 +41,4 @@
 - Fake Store API => https://fakestoreapi.com/
 - Authentication Fake API => https://fakestoreapi.com/
 
-### View The Site: 
-- https://e-commerce-js-maram.netlify.app/
+
