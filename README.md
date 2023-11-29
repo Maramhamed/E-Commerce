@@ -1,7 +1,9 @@
 # E-commerce Website🛒
 
+
 ### The app's idea: 
 - An E-Commerce application that allows users to browse and purchase products online.<be>
+
 
 ### The Features: 
 -  It provides an easy-to-use interface and comfortable eye colors for browsing and viewing products, and it can also be developed and improved.
@@ -16,9 +18,12 @@
 ###### Responsive Design:
 * The application is designed to be responsive, adapting to different screen sizes.
  
-###### Checkout Process::
+###### Checkout Process:
 * Clicking the "Buy Now" button initiates the checkout process.
 * The application may redirect users to a checkout page for order confirmation and payment.
+
+###### Authentication :
+* required to provide their email address and password or register to gain access to the application's protected content or features.
 
 
 
