@@ -39,6 +39,6 @@
   
 ### API: 
 - Fake Store API => https://fakestoreapi.com/
-- Authentication Fake API => https://fakestoreapi.com/
+- Authentication Fake API => https://reqres.in/
 
 
